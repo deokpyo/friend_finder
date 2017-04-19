@@ -22,12 +22,13 @@ friend_finder
  	- server.js
 ```
 - - - -
+**Details**
 * Survey consists of 10 customized questions. Each answer has a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
-* **server.js** file requires the basic npm packages: express, and body-parser.
-* **htmlRoutes.js** file includes two routes:
+* `server.js` file requires the basic npm packages: express, and body-parser.
+* `htmlRoutes.js` file includes two routes:
     1. GET Route to /survey which displays the survey page.
     2. Default USE route that leads to home.html which displays the home page.
-* **apiRoutes.js** file contains two routes:
+* `apiRoutes.js` file contains two routes:
     1. GET route with the url /api/friends. This is used to display a JSON of all possible friends.
     2. POST route to /api/friends. This is used to handle incoming survey results. It is also be used to handle the compatibility logic.
 * Data is saved as an array of objects as shown below:
