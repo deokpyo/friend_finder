@@ -62,4 +62,7 @@ friend_finder
 * Once the current user's most compatible match is determined, both name and picture will be displayed as a modal pop-up.
 
 ![picture alt](./preview2.png?raw=true "Preview 2")
+- - - -
+**Try the live application** [Demo Link](https://beer-friend-finder.herokuapp.com)
+
 
